@@ -1,0 +1,203 @@
+#!/bin/bash
+for f in *\ *; do mv "$f" "${f// /_}"; done
+###cd /run/media/guillaume/7D82D8E23484EF7C/Image        ### pretty obvious I think
+for file in *.pdf    ### we are going to loop for .wav files
+do                                ### start of your loop
+    ###mv  ${file} /run/media/guillaume/7D82D8E23484EF7C/ISOs
+
+
+    ### your file format is YYYY-MM-DD-HH-MM-SS-xxxxxxxxxx.wav so
+    ### get the year and month out of filename
+    
+    ### create the variable for store directory name
+    STOREDIR="PDF"
+      if [ -d ${STOREDIR} ];         ### if the directory exists
+    then
+        mv ${file} ${STOREDIR}    ### move the file
+    else                         ### the directory doesn't exist
+        echo ${STOREDIR}
+        mkdir ${STOREDIR}         ### create it
+        mv ${file} ${STOREDIR}    ### then move the file
+    fi               
+done                              ### close the for loop.
+
+for file in *.PDF   ### we are going to loop for .wav files
+do                                ### start of your loop
+    ###mv  ${file} /run/media/guillaume/7D82D8E23484EF7C/ISOs
+
+
+    ### your file format is YYYY-MM-DD-HH-MM-SS-xxxxxxxxxx.wav so
+    ### get the year and month out of filename
+    
+    ### create the variable for store directory name
+    STOREDIR="PDF"
+      if [ -d ${STOREDIR} ];         ### if the directory exists
+    then
+        mv ${file} ${STOREDIR}    ### move the file
+    else                         ### the directory doesn't exist
+        echo ${STOREDIR}
+        mkdir ${STOREDIR}         ### create it
+        mv ${file} ${STOREDIR}    ### then move the file
+    fi               
+done                              ### close the for loop.
+
+for file in *.doc   ### we are going to loop for .wav files
+do                                ### start of your loop
+    ###mv  ${file} /run/media/guillaume/7D82D8E23484EF7C/ISOs
+
+
+    ### your file format is YYYY-MM-DD-HH-MM-SS-xxxxxxxxxx.wav so
+    ### get the year and month out of filename
+    
+    ### create the variable for store directory name
+    STOREDIR="DOC"
+      if [ -d ${STOREDIR} ];         ### if the directory exists
+    then
+        mv ${file} ${STOREDIR}    ### move the file
+    else                         ### the directory doesn't exist
+        echo ${STOREDIR}
+        mkdir ${STOREDIR}         ### create it
+        mv ${file} ${STOREDIR}    ### then move the file
+    fi               
+done                              ### close the for loop.
+
+for file in *.docx   ### we are going to loop for .wav files
+do                                ### start of your loop
+    ###mv  ${file} /run/media/guillaume/7D82D8E23484EF7C/ISOs
+
+
+    ### your file format is YYYY-MM-DD-HH-MM-SS-xxxxxxxxxx.wav so
+    ### get the year and month out of filename
+    
+    ### create the variable for store directory name
+    STOREDIR="DOC"
+      if [ -d ${STOREDIR} ];         ### if the directory exists
+    then
+        mv ${file} ${STOREDIR}    ### move the file
+    else                         ### the directory doesn't exist
+        echo ${STOREDIR}
+        mkdir ${STOREDIR}         ### create it
+        mv ${file} ${STOREDIR}    ### then move the file
+    fi               
+done                              ### close the for loop.
+
+
+for file in *.png    ### we are going to loop for .wav files
+do                                ### start of your loop
+    ###mv  ${file} /run/media/guillaume/7D82D8E23484EF7C/ISOs
+
+
+    ### your file format is YYYY-MM-DD-HH-MM-SS-xxxxxxxxxx.wav so
+    ### get the year and month out of filename
+    
+    ### create the variable for store directory name
+    STOREDIR="IMG"
+      if [ -d ${STOREDIR} ];         ### if the directory exists
+    then
+        mv ${file} ${STOREDIR}    ### move the file
+    else                         ### the directory doesn't exist
+        echo ${STOREDIR}
+        mkdir ${STOREDIR}         ### create it
+        mv ${file} ${STOREDIR}    ### then move the file
+    fi               
+done  
+
+for file in *.PNG    ### we are going to loop for .wav files
+do                                ### start of your loop
+    ###mv  ${file} /run/media/guillaume/7D82D8E23484EF7C/ISOs
+
+
+    ### your file format is YYYY-MM-DD-HH-MM-SS-xxxxxxxxxx.wav so
+    ### get the year and month out of filename
+    
+    ### create the variable for store directory name
+    STOREDIR="IMG"
+      if [ -d ${STOREDIR} ];         ### if the directory exists
+    then
+        mv ${file} ${STOREDIR}    ### move the file
+    else                         ### the directory doesn't exist
+        echo ${STOREDIR}
+        mkdir ${STOREDIR}         ### create it
+        mv ${file} ${STOREDIR}    ### then move the file
+    fi               
+done                              ### close the for loop.         
+
+
+for file in *.jpeg   ### we are going to loop for .wav files
+do                                ### start of your loop
+    ###mv  ${file} /run/media/guillaume/7D82D8E23484EF7C/ISOs
+
+
+    ### your file format is YYYY-MM-DD-HH-MM-SS-xxxxxxxxxx.wav so
+    ### get the year and month out of filename
+    
+    ### create the variable for store directory name
+    STOREDIR="IMG"
+      if [ -d ${STOREDIR} ];         ### if the directory exists
+    then
+        mv ${file} ${STOREDIR}    ### move the file
+    else                         ### the directory doesn't exist
+        echo ${STOREDIR}
+        mkdir ${STOREDIR}         ### create it
+        mv ${file} ${STOREDIR}    ### then move the file
+    fi               
+done                              ### close the for loop.       
+for file in *.jpg   ### we are going to loop for .wav files
+do                                ### start of your loop
+    ###mv  ${file} /run/media/guillaume/7D82D8E23484EF7C/ISOs
+
+
+    ### your file format is YYYY-MM-DD-HH-MM-SS-xxxxxxxxxx.wav so
+    ### get the year and month out of filename
+    
+    ### create the variable for store directory name
+    STOREDIR="IMG"
+      if [ -d ${STOREDIR} ];         ### if the directory exists
+    then
+        mv ${file} ${STOREDIR}    ### move the file
+    else                         ### the directory doesn't exist
+        echo ${STOREDIR}
+        mkdir ${STOREDIR}         ### create it
+        mv ${file} ${STOREDIR}    ### then move the file
+    fi               
+done  
+for file in *.JPG    ### we are going to loop for .wav files
+do                                ### start of your loop
+    ###mv  ${file} /run/media/guillaume/7D82D8E23484EF7C/ISOs
+
+
+    ### your file format is YYYY-MM-DD-HH-MM-SS-xxxxxxxxxx.wav so
+    ### get the year and month out of filename
+    
+    ### create the variable for store directory name
+    STOREDIR="IMG"
+      if [ -d ${STOREDIR} ];         ### if the directory exists
+    then
+        mv ${file} ${STOREDIR}    ### move the file
+    else                         ### the directory doesn't exist
+        echo ${STOREDIR}
+        mkdir ${STOREDIR}         ### create it
+        mv ${file} ${STOREDIR}    ### then move the file
+    fi               
+done  
+
+for file in *.txt    ### we are going to loop for .wav files
+do                                ### start of your loop
+    ###mv  ${file} /run/media/guillaume/7D82D8E23484EF7C/ISOs
+
+
+    ### your file format is YYYY-MM-DD-HH-MM-SS-xxxxxxxxxx.wav so
+    ### get the year and month out of filename
+    
+    ### create the variable for store directory name
+    STOREDIR="Text"
+      if [ -d ${STOREDIR} ];         ### if the directory exists
+    then
+        mv ${file} ${STOREDIR}    ### move the file
+    else                         ### the directory doesn't exist
+        echo ${STOREDIR}
+        mkdir ${STOREDIR}         ### create it
+        mv ${file} ${STOREDIR}    ### then move the file
+    fi               
+done  
+

@@ -1,0 +1,10 @@
+#!/bin/bash
+for file in *-*
+do
+year=$(echo ${file} | cut -d"-" -f1)
+month=$(echo ${file} | cut -d"-" -f2)
+STOREDIR=${year}_${month}
+
+
+mv ${file} ${STOREDIR}
+done

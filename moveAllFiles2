@@ -1,0 +1,9 @@
+#!/bin/bash
+for f in *\ *; do mv "$f" "${f// /_}"; done
+cd /run/media/guillaume/7D82D8E23484EF7C/Image        ### pretty obvious I think
+for file in *.jpg    ### we are going to loop for .wav files
+do                                ### start of your loop
+    mv  ${file} /run/media/guillaume/7D82D8E23484EF7C/Video
+
+
+done                              ### close the for loop.
